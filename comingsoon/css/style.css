@@ -139,10 +139,10 @@
 }
 #hero:before {
   content: '';
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
-  bottom: 96px;
+  bottom: 0;
   left: 0;
   background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
   opacity: .6;
@@ -156,7 +156,7 @@ position: relative;
 
 .hackathon h1 {
 position: relative;
-margin: 1.2em 0 0.4em;
+margin: 0 0 0;
 color: #fff;
 z-index: 2;
 font-size: 6em;
@@ -170,7 +170,7 @@ position: relative;
 
 .bubbles h1 {
 position: relative;
-margin: 1.5em 0 0.3em;
+margin: 2em 0 0.3em;
 margin-left: -200px;
 color: #fff;
 z-index: 2;
@@ -459,7 +459,8 @@ a {
 
 .footer {
   height: 10vh;
-  margin-top: -96px;
+  margin-top: 50px;
+  margin-bottom: 25px;
   color: #DC2430;
   background-color: white; }
   .footer .text-vcenter {
