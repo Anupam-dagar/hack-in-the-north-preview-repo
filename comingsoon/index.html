@@ -3,104 +3,136 @@
 
 <head>
     <meta charset="UTF-8">
-<meta property="og:title" content="HackRU Fall 2017"/>
-<meta property="og:description" content="Get hyped for the best hackathon that Rutgers has to offer! The 13th semiannual HackRU is coming this Fall 2017, from October 14th-15th at College Ave Student Center." />
-<meta property="og:image" content="http://www.hackru.org/assets/hackRU_SP17_avatar.png" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Sign up for HackRU Fall 2017, taking place from October 14th to 15th.">
-<title>HINT v3.0</title>
+    <meta property="og:title" content="HackRU Fall 2017"/>
+    <meta property="og:description" content="Get hyped for the best hackathon that Rutgers has to offer! The 13th semiannual HackRU is coming this Fall 2017, from October 14th-15th at College Ave Student Center." />
+    <meta property="og:image" content="http://www.hackru.org/assets/hackRU_SP17_avatar.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sign up for HackRU Fall 2017, taking place from October 14th to 15th.">
+    <title>HINT v3.0</title>
 
-<link href="assets/fav.png" rel="shortcut icon" type="image/png"/>
+    <link href="assets/fav.png" rel="shortcut icon" type="image/png"/>
 
-<link rel="stylesheet" type="text/css" href="css/tether.min.css">
-<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Luckiest+Guy'>
-<link rel="stylesheet" type="text/css" href="css/canva.css">
+    <link rel="stylesheet" type="text/css" href="css/tether.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:600" rel="stylesheet">
+    <!-- scripts for subscribe button -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineLite.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/plugins/CSSPlugin.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/easing/EasePack.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenLite.min.js"></script>
 
-<script src="js/tether.min.js"></script>
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/font-awesome-4.7.0.js"></script>
-<script src="js/scripts.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/font-awesome-4.7.0.js"></script>
+    <script src="js/scripts.js"></script>
 </head>
 
 <body>
 
-<div class="container-fluid">
+    <div class="container-fluid">
 
-    <!-- HERO SECTION -->
-    <div class="row min-full-height"
-         id="hero">
+        <!-- HERO SECTION -->
+        <div class="row min-full-height"
+        id="hero">
         <div class="col-10 offset-1">
 
             <!-- The navbar is contained within a row with id="nav-bar" -->
             <div class="hidden-md-down row text-center text-white" id="nav-bar">
-    <div class="col-2 offset-1"><a href="index.html#about-us"><h4 class="nav-bar-link">HINT 2016</h4></a></div>
-    <div class="col-2"><a href="index.html#schedule"><h4 class="nav-bar-link">HINT 2017</h4></a></div>
-    <div class="col-2"><img src="assets/logo.png" class="nav-bar-logo"></div>
-    <div class="col-2"><a href="index.html#faqs"><h4 class="nav-bar-link">TEAM</h4></a></div>
-    <div class="col-2"><a href="index.html#sponsors"><h4 class="nav-bar-link">v3.0</h4></a></div>
-</div>
+                <div class="col-2 offset-1"><a href="https://www.hackinthenorth.com/2016/"><h4 class="nav-bar-link">HINT 2016</h4></a></div>
+                <div class="col-2"><a href="https://www.hackinthenorth.com/2017/"><h4 class="nav-bar-link">HINT 2017</h4></a></div>
+                <div class="col-2"><img src="assets/logo.png" class="nav-bar-logo"></div>
+                <div class="col-2"><a href="https://www.hackinthenorth.com/team.html"><h4 class="nav-bar-link">TEAM</h4></a></div>
+                <div class="col-2"><a href="https://www.hackinthenorth.com"><h4 class="nav-bar-link">v3.0</h4></a></div>
+            </div>
 
 
-<!-- mobile nav -->
-<div class="hidden-lg-up row text-center text-white mb-5" id="nav-bar">
-    <div class="col-8 col-sm-4 offset-2 offset-sm-4"><img src="assets/logo.png" class="nav-bar-logo"></div>
-    <div class="col-2 col-sm-4"></div>
+            <!-- mobile nav -->
+            <div class="hidden-lg-up row text-center text-white mb-5" id="nav-bar">
+                <div class="col-8 col-sm-4 offset-2 offset-sm-4"><img src="assets/logo.png" class="nav-bar-logo"></div>
+                <div class="col-2 col-sm-4"></div>
 
-    <div class="col-6 col-sm-3"><a href="index.html#about-us"><h4>HINT 2016</h4></a></div>
-    <div class="col-6 col-sm-3"><a href="index.html#schedule"><h4>HINT 2017</h4></a></div>
-    <div class="col-6 col-sm-3"><a href="index.html#faqs"><h4>TEAM</h4></a></div>
-    <div class="col-6 col-sm-3"><a href="index.html#sponsors"><h4>v3.0</h4></a></div>
+                <div class="col-6 col-sm-3"><a href="https://www.hackinthenorth.com/2016/"><h4>HINT 2016</h4></a></div>
+                <div class="col-6 col-sm-3"><a href="https://www.hackinthenorth.com/2017/"><h4>HINT 2017</h4></a></div>
+                <div class="col-6 col-sm-3"><a href="https://www.hackinthenorth.com/team.html"><h4>TEAM</h4></a></div>
+                <div class="col-6 col-sm-3"><a href="https://www.hackinthenorth.com"><h4>v3.0</h4></a></div>
 
-</div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="text-center">
 
-            <div class="text-center">
+                        <div class="center-outer">
+                            <div class="center-inner">
 
-                <div class="center-outer">
-<div class="center-inner">
+                                <div class="bubbles">
+                                    <h1 style="font-family: 'Montserrat', sans-serif;">COMING SOON</h1>
+                                </div>
 
-<div class="bubbles">
-<h1 style="font-family: 'Luckiest Guy', cursive;">COMING SOON</h1>
-</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="goo">
+                          <defs>
+                            <filter id="goo">
+                              <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                              <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                              <feComposite in="SourceGraphic" in2="goo"/>
+                          </filter>
+                      </defs>
+                  </svg>
 
-</div>
-</div>
-<div class="row">
-<div class="col-6 offset-2 col-sm-3">
-    <img src="assets/logocolor.png" style="width: 250%;">
-</div>
-</div>
+                  <span class="button--bubble__container" style="left: 17%;">
+                      <a href="#campaign" class="button button--bubble">
+                        Subscribe For Updates
+                    </a>
+                    <span class="button--bubble__effect-container">
+                        <span class="circle top-left"></span>
+                        <span class="circle top-left"></span>
+                        <span class="circle top-left"></span>
+
+                        <span class="button effect-button"></span>
+
+                        <span class="circle bottom-right"></span>
+                        <span class="circle bottom-right"></span>
+                        <span class="circle bottom-right"></span>
+                    </span>
+                </span>
             </div>
         </div>
+        <div class="col-6 hackathon">
+            <h1 style="font-family: 'Montserrat', sans-serif;">HACK IN THE NORTH</h1>
+            <h3 style="font-size: 2em;">IIIT ALLAHABAD</h3>
+        </div>
     </div>
-    <!-- END OF HERO SECTION -->
+</div>
+</div>
+<!-- END OF HERO SECTION -->
 
 
-    <!-- ******************************************************************** -->
+<!-- ******************************************************************** -->
 
 
-    
 
-    <!-- FOOTER SECTION -->
-    <div class="row text-black footer">
+
+<!-- FOOTER SECTION -->
+<div class="row text-black footer">
     <div class="col-12 col-lg-10 offset-lg-1">
 
         <div class="row">
             <div class="col-12 text-center col-lg-4 text-left-lg">
                 <h5 class="text-vcenter">
-                    <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">HINT v3.0</a>
+                    <a href="#">HINT v3.0</a>
                 </h5>
             </div>
 
-            <div class="col-12 col-lg-4 text-center">
-
-                <a href="mailto:info@hackru.org" class="social-links" data-email="info@hackru.org" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                <a href="https://www.facebook.com/theHackRU/" class="social-links" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                <a href="https://www.instagram.com/thehackru/" class="social-links" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                <a href="https://medium.com/the-hackru" class="social-links" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
-                <a href="https://twitter.com/theHackRU" class="social-links" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            <div class="col-12 col-lg-4 text-center" style="margin-top: 0.9em;">
+                <h6>Gautham Santhosh: +91-8921997405</h6>
+                   <h6>Anurag El Dorado: +91-7704914402</h6>
+                   <h6>Abhinav Khare: +91-8319473031</h6>
+                </p>
 
             </div>
 
@@ -110,9 +142,8 @@
                 <a href="https://mlh.io/" target="_blank">
                     <img class="footer-logo" src="assets/logocolor.png" alt="MLH logo">
                 </a>
-                <a href="http://usacs.rutgers.edu/" target="_blank" style="font-size: 2.5em;">
-                    IIITA
-                </a>
+                <a href="https://www.facebook.com/HackInTheNorth/" class="social-links" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/hintIIITA" class="social-links" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
 
             </div>
 
@@ -125,55 +156,11 @@
 
 
 
-    <!-- END FOOTER SECTION -->
+<!-- END FOOTER SECTION -->
 
 </div>
-<script type="text/javascript">
-	// Created for an Articles on:
-// https://www.html5andbeyond.com/bubbling-text-effect-no-canvas-required/
-
-jQuery(document).ready(function($){
- 
-    // Define a blank array for the effect positions. This will be populated based on width of the title.
-    var bArray = [];
-    // Define a size array, this will be used to vary bubble sizes
-    var sArray = [4,6,8,10];
- 
-    // Push the header width values to bArray
-    for (var i = 0; i < $('.bubbles').width(); i++) {
-        bArray.push(i);
-    }
-     
-    // Function to select random array element
-    // Used within the setInterval a few times
-    function randomValue(arr) {
-        return arr[Math.floor(Math.random() * arr.length)];
-    }
- 
-    // setInterval function used to create new bubble every 350 milliseconds
-    setInterval(function(){
-         
-        // Get a random size, defined as variable so it can be used for both width and height
-        var size = randomValue(sArray);
-        // New bubble appeneded to div with it's size and left position being set inline
-        // Left value is set through getting a random value from bArray
-        $('.bubbles').append('<div class="individual-bubble" style="left: ' + randomValue(bArray) + 'px; width: ' + size + 'px; height:' + size + 'px;"></div>');
-         
-        // Animate each bubble to the top (bottom 100%) and reduce opacity as it moves
-        // Callback function used to remove finsihed animations from the page
-        $('.individual-bubble').animate({
-            'bottom': '100%',
-            'opacity' : '-=0.7'
-        }, 3000, function(){
-            $(this).remove()
-        }
-        );
- 
- 
-    }, 350);
- 
-});
-</script>
+<script type="text/javascript" src="js/bubble.js"></script>
+<script type="text/javascript" src="js/subscribe.js"></script>
 </body>
 </html>
 
