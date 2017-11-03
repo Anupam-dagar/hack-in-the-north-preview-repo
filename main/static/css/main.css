@@ -107,6 +107,7 @@ body{
     font-family: 'Montserrat', serif;
     color: #737373;
     letter-spacing: normal;
+    padding-top: 85px; 
     height: 100%;
 }
 
@@ -197,10 +198,11 @@ li{
 
 .custom-nav-changes{
     background-color: white;
-    box-shadow: 0 5px 10px 0 rgba(0,0,0,.05);
     height: 81px;
 }
-
+.shadow-header{
+    box-shadow: 0 0 10px #9d9d9d;
+}
 
 /********************************** LANDING ********************************/
 
@@ -217,7 +219,6 @@ li{
 }
 
 #landing {
-    margin-top: 5vh;
     margin-bottom: 10vh;
 }
 
