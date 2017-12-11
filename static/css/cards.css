@@ -6,7 +6,9 @@
        url('../fonts/Metropolis-Medium.woff') format('woff'), /* Pretty Modern Browsers */
        url('../fonts/Metropolis-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
 }
-
+*{
+	font-family: 'Metropolis';
+}
 .parallax-width{
   max-width: 100%;
 }
