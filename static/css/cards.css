@@ -1,3 +1,18 @@
+@media screen and (max-width: 480px) {
+  .underline {
+    width: 68px;
+  }
+}
+.underline {
+  border-bottom: solid 2px white;
+  margin: -0.512em auto;
+  width: 80px;
+}
+@media screen and (max-width: 420px) {  
+  .underline {
+    width: 53px;
+  }
+}
 @media (min-width: 992px) {
   .custom-offset {
     margin-left: 29%;
@@ -64,6 +79,13 @@
   .custom-col-2{
     float: left;
     width: 16.66666667%;
+  }
+}
+@media (min-width: 992px) {
+  .custom-tim{
+    float: left;
+    width: 9%;
+    margin-left: 3.3%;
   }
 }
 @media (min-width: 768px) {

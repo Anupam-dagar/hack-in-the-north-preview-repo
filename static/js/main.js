@@ -62,6 +62,22 @@ $(document).ready(function(){
 //parallax
 var scene = document.getElementById('scene');
 var parallaxInstance = new Parallax(scene);
+
+$("#diversityy").vegas({
+    slides: [
+        { src: "static/img/rename.jpg" },
+        { src: "static/img/7.jpg" },
+        { src: "static/img/4.jpg" },
+        { src: "static/img/11.jpg" }
+    ],
+    delay: 2000,
+    timer: false,
+    transition: [ 'blur', ],
+    transitionDuration: 1000,
+    animation: ['kenburnsRight'],
+    animationDuration: 2000
+});
+
 });
 
 $('.not-active').click(function () {return false;});
