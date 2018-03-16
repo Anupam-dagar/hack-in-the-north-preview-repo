@@ -1,4 +1,4 @@
-<clipPath id="SVGID_2_">sa
+<clipPath id="SVGID_2_">sa.
 		<use xlink:href="#SVGID_1_"  overflow="visible"/>
 		<use xlink:href="#SVGID_3_"  overflow="visible"/>
 		<use xlink:href="#SVGID_4_"  overflow="visible"/>
